@@ -8,6 +8,7 @@ public class ProductRepository {
     private Product[] products = new Product[0];
 
     public Product[] findAll() {
+
         return products;
     }
 

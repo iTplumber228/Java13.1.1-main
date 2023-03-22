@@ -1,5 +1,6 @@
 package ru.netology.javaqamvn.services.manager;
 
+import ru.netology.javaqamvn.services.domain.Book;
 import ru.netology.javaqamvn.services.domain.Product;
 import ru.netology.javaqamvn.services.repository.ProductRepository;
 
@@ -41,6 +42,7 @@ public class ProductManager {
         // или в одну строку:
         // return product.getName().contains(search);
     }
+
 }
 
 

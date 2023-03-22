@@ -3,6 +3,7 @@ package ru.netology.javaqamvn.services.manager;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.netology.javaqamvn.services.domain.Book;
+import ru.netology.javaqamvn.services.domain.NotFoundException;
 import ru.netology.javaqamvn.services.domain.Product;
 import ru.netology.javaqamvn.services.domain.Smartphone;
 import ru.netology.javaqamvn.services.repository.ProductRepository;
@@ -65,6 +66,5 @@ class ProductManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
-
 
 }
